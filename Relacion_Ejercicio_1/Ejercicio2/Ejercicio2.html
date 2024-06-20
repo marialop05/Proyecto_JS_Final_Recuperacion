@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Circunferencia, Área y Volumen</title>
+    <link rel="icon" href="../img/Ejercicios.jpg">
+    <link rel="stylesheet" href="Ejercicio2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calcular Circunferencia, Área y Volumen</h1>
+
+        <form id="calculadora">
+            <div class="form-group">
+                <label for="radio" class="label1">Radio:</label>
+                <input type="text" class="form-control" id="radio" pattern="[0-9]+([\.][0-9]+)?" title="Por favor, ingrese un radio correcto" required>
+            </div>
+            <button type="submit" class="btn btn-block btn-custom">Calcular</button>
+        </form>
+        <div id="result">
+            <h2>Resultados:</h2>
+            <p id="circunferencia"></p>
+            <p id="area"></p>
+            <p id="volumen"></p>
+        </div>
+    </div>
+    <script src="Ejercicio2.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular los meses del año</title>
+    <link rel="icon" href="../img/Ejercicios.jpg">
+    <link rel="stylesheet" href="Ejercicio9.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mes del Año</h1>
+        <form id="monthForm">
+            <label for="monthNumber">Selecciona un número de mes:</label>
+            <select id="monthNumber" required>
+                <option value="" disabled selected>Selecciona un mes</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            <br><br>
+            <button type="submit" class="btn btn-danger btn-custom btn-block">Mostrar</button>
+        </form>
+        <div id="results">
+            <h2>Resultados:</h2>
+            <p id="mes"></p>
+        </div>
+    </div>
+    <script src="Ejercicio9.js"></script>
+</body>
+</html>

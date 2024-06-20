@@ -1,0 +1,71 @@
+body {
+    background-color: #9b4646;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+    background-color: #65a761ea;
+    padding: 90px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 35%; /* Puedes ajustar el ancho según tus necesidades */
+    aspect-ratio: 1 / 1; /* Mantiene el contenedor cuadrado */
+    margin-left: auto;
+    margin-right: auto; /* Centra el contenedor horizontalmente */
+}
+
+h1 {
+    color: #9b4646;;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#result {
+    margin-top: 30px;
+    padding: 20px;
+    border-top: 2px solid #e0e0e0;
+}
+
+#result h2 {
+    color: #ae4e4e;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#result p {
+    font-size: 16px;
+    color: #4327c1;
+    line-height: 1.6;
+}
+.btn-custom {
+    background-color: #ff0088 !important;
+    color: #ffffff !important;
+    width: 60px;
+    height: 60px;
+    border: none !important;
+    border-radius: 50% !important;
+    font-size: 18px !important;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 60px; /* Centra el texto verticalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Centra el botón horizontalmente */
+}
+.btn-custom:hover {
+    background-color: #e03c00 !important;
+}
+
+.label1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+input[type="number"] {
+    margin-bottom: 20px; /* Agrega espacio debajo de cada campo de entrada */
+}
